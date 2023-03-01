@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import {
   FeedbackButtonList,
   FeedbackButtonListItem,
-} from 'components/FeedbackOptions/FeedbackOptions.styled.jsx';
+} from './FeedbackOptions.styled.jsx';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (

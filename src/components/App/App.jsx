@@ -1,12 +1,10 @@
-import React from 'react';
-
 import { useState } from 'react';
 import { Statistics } from 'components/Statistics/Statistics';
 import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 import { Section } from 'components/Section/Section';
 import { Notification } from 'components/Notification/Notification';
 
-import { Container } from 'components/App.styled';
+import { Container } from './App.styled';
 
 export default function App() {
   const [good, setGood] = useState(0);
